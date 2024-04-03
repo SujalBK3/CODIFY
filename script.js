@@ -138,7 +138,7 @@ window.addEventListener("DOMContentLoaded" , e=>
 
 function saveDiv() {
     
-    var clonedDiv = document.querySelectorAll('.duplicate1 .user');
+    var clonedDiv = document.querySelectorAll('.duplicate1');
 
     // if (clonedDiv.length === 0) {
     //     sessionStorageStorage.removeItem('clonedData');
@@ -181,7 +181,7 @@ window.addEventListener('DOMContentLoaded', loadDiv);
 
 function saveDiv1() {
     
-    var clonedDiv1 = document.querySelectorAll('.duplicate2 .user1');
+    var clonedDiv1 = document.querySelectorAll('.duplicate2');
 
     
     var clonedData1 = [];
